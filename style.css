@@ -8,5 +8,11 @@
     outline: 1px solid green;
     width: 1200px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 483px auto;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
