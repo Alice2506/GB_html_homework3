@@ -4,9 +4,10 @@
 }
 
 .header {
-    margin: 0 auto;
+    margin: 0px auto 22px auto;
+    padding-top: 40px;
     outline: 1px solid green;
-    width: 1200px;
+    width: 1170px;
     display: grid;
     grid-template-columns: 483px auto;
 }
@@ -15,4 +16,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.description {
+    margin: 0 auto;
+    outline: 1px solid coral;
+    width: 1170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.descriptionInfo {
+    margin-top: 87px;
+}
+
+.logos {
+    margin: 0 auto;
+    width: 1170px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
 }
